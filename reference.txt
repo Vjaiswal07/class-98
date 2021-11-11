@@ -1,0 +1,30 @@
+>>> f=open("/Users/manishjaiswal/Library/Mobile Documents/com~apple~CloudDocs/Module 2/Module 3/class 98/text.txt")
+>>> f.read()
+'this is a sample file\nthis is class 98'
+>>> f=open("/Users/manishjaiswal/Library/Mobile Documents/com~apple~CloudDocs/Module 2/Module 3/class 98/text.txt")
+>>> filelines=f.readlines()
+>>> for line in filelines:
+...     print(line)
+... 
+this is a sample file
+
+this is class 98
+>>> intro="my name is vihaan"
+>>> words=intro.split()
+>>> print(words)
+['my', 'name', 'is', 'vihaan']
+>>> intro1="my name, is vihaan"
+>>> word=intro1.split(",")
+>>> print(word)
+['my name', ' is vihaan']
+>>> def greet(name:)
+  File "<stdin>", line 1
+    def greet(name:)
+                   ^
+SyntaxError: invalid syntax
+>>> def greet(name):
+...     print("hello "+name+" how are you")
+... 
+>>> greet("vihaan")
+hello vihaan how are you
+>>> 
